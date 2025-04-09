@@ -4,30 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Myntra </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <nav>
         <div> 
-            <img class="logo" src="./Assets/logo.png" alt="LOGO">
+            <img class="logo" src="./Assets/logo.jpeg" alt="LOGO">
         </div>
         <div class="nav-links">
-            <a href=""> MEN </a>  
-            <a href="">  WOMEN </a> 
-            <a href=""> KIDS </a> 
-            <a href=""> HOME </a> 
-            <a href=""> BEAUTY </a> 
-            <a href=""> GENZ </a> 
-            <a href=""> STUDIO </a>  
+            <p href=""> MEN </p>  
+            <p href="">  WOMEN </p> 
+            <p href=""> KIDS </p> 
+            <p href=""> HOME </p> 
+            <p href=""> BEAUTY </p> 
+            <p href=""> GENZ </p> 
+            <p href=""> STUDIO <sup>new</sup> </p>  
+        </div>
+        <div class="search-bar">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#666666"><path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/></svg>     
+            <input type=" text" placeholder="    Search for products,brands and more">
         </div>
         <div>
-            <input type=" text" placeholder="Search">
-        </div>
-        <div>
-            <div>Profile</div>
-            <div> Wishlist</div>
-            <div>Bag</div>
+            <div>
+                <i class="fa-regular fa-user"></i>
+              <p>Profile</p>  
+            </div>
+            <div><i class="fa-regular fa-heart"></i>
+                <p> Wishlist</p></div>
+            <div><i class="fa-solid fa-bag-shopping"></i>
+                <p>Bag</p></div>
         </div>
     </nav>
+    <div class="timer-div">
+       Sale Ends in &nbsp; <p> <span> 01 </span>&nbsp;    Day :&nbsp; <span> 01 </span> 
+            &nbsp; H : &nbsp;<span> 35 </span>&nbsp; M :&nbsp; <span> 34 </span>&nbsp; S </p>
+    </div>
+    <section>
+        <main>
+            <div>
+                <img src="./Assets/discountCoupon1.jpg" alt="Discount Coupon" class="discount-coupon">
+            </div>
+            <div class="product">
+                <img src="./Assets/d1.jpg" alt="" class="product-image">
+                <img src="./Assets/d2.jpg" alt="" class="product-image">
+            </div>
+        </main>
+    </section>
 </body>
 </html>
