@@ -92,6 +92,7 @@ nav > div> div{
     font-size: 15px;
 }
 section{
+    /* position: absolute; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -108,4 +109,10 @@ main{
 }
 .product-image{
     width: 50%;
+}
+.side-image{
+    position: fixed;
+    right: 0px;
+    top: 300px;
+    width: 50px;
 }
