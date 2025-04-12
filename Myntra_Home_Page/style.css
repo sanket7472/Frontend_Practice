@@ -116,3 +116,9 @@ main{
     top: 300px;
     width: 50px;
 }
+main>article{
+    display: flex;
+}
+main>article>img{
+    width: 50%;
+}
