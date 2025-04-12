@@ -122,3 +122,28 @@ main>article{
 main>article>img{
     width: 50%;
 }
+main>aside>img{
+    width: 100%;
+}
+main>main{
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 2px solid #000000; */
+    width: 100%;
+}
+main>main>img{
+    width: 16%;
+}
+.product-title{
+    width: 100%;
+
+}
+.product-title>img{
+    width: 100%;
+}
+section>article{
+    width: 100%;
+}
+section>article>img{
+    width: 16%;
+}
