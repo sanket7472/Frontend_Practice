@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+fieldset{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ease div{
+    height: 200px;
+    width: 200px;
+    border: 20px solid;
+    border-top: 20px solid red;
+    border-radius: 50%;
+    animation-name: loder;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+.ease-in div{
+    height: 200px;
+    width: 200px;
+    border: 20px solid;
+    border-top: 20px solid red;
+    border-radius: 50%;
+    animation-name: loder;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+.ease-out div{
+    height: 200px;
+    width: 200px;
+    border: 20px solid;
+    border-top: 20px solid red;
+    border-radius: 50%;
+    animation-name: loder;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+}
+.ease-in-out div{
+    height: 200px;
+    width: 200px;
+    border: 20px solid;
+    border-top: 20px solid red;
+    border-radius: 50%;
+    animation-name: loder;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.linear div{
+    height: 200px;
+    width: 200px;
+    border: 20px solid;
+    border-top: 20px solid red;
+    border-radius: 50%;
+    animation-name: loder;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes loder{
+    to{
+        transform: rotate(360deg);
+    }
+}
