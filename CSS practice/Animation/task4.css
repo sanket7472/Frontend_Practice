@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  div{
+    border: 1px solid black;
+    display: flex;
+    border-radius: 10%;
+    justify-content: center;
+    align-items: center;
+    animation-name: rotate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+  }
+  .box1{
+    width: 60vh;
+    height: 60vh;
+    background-color: rgb(4, 255, 0);
+  }
+  .box2{
+    width: 50vh;
+    height: 50vh;
+    background-color: rgb(243, 102, 47);
+  }
+  .box3{
+    width: 40vh;
+    height: 40vh;
+    background-color: rgb(0, 172, 106);
+  }
+  .box4{
+    width: 30vh;
+    height: 30vh;
+    background-color: rgb(236, 21, 21);
+  }
+  .box5{
+    width: 20vh;
+    height: 20vh;
+    background-color: rgb(94, 5, 210);
+
+  }
+  .box6{
+    width: 10vh;
+    height: 10vh;
+    background-color: blue;
+
+  }
+
+  @keyframes rotate{
+    to{
+        transform: rotate(360deg);
+    }
+  }
