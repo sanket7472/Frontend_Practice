@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.img div{
+    border: 3px solid;
+    height: 400px;
+    width: 400px;
+    /* border-radius: 50%; */
+    background-image: url(./bg.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+   
+}
+.linear div{
+    border: 3px solid;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background-image: linear-gradient(to left, red,yellow);
+}
+.radial div{
+    border: 3px solid;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background-image: radial-gradient(yellow, red , black);
+}
+.conic div{
+    border: 3px solid;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background-image: conic-gradient(red,yellow, green,aqua,blue, red);
+}
+.repeat-linear div{
+
+   border: 3px solid;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background-image: repeating-linear-gradient(red 10%,yellow 15%);
+}
+.repeat-radial div{
+
+    border: 1px solid;
+     height: 400px;
+     width: 400px;
+     border-radius: 50%;
+     background-image: repeating-radial-gradient(white 5%,black 8%);
+ }
