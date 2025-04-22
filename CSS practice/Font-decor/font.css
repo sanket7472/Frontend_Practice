@@ -1,0 +1,31 @@
+#shadow{
+    font-family: sans-serif;
+    font-size:10em;
+    font-weight: bolder;
+    /* font-style: italic; */
+    text-align: center;
+    color: tomato;
+    text-transform: uppercase;
+    /* Short hand property - accepting more than one value  */
+    text-shadow: -9px 9px 8px black;
+    text-decoration: underline double 4px black;
+    
+}
+#indent{
+    text-indent: 20px;
+}
+
+#t-dec{
+    font-family: sans-serif;
+    font-size:10em;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-color:red ;
+    text-decoration-thickness:5px ;
+    text-decoration-style:wavy ;
+
+}
+#t-wrap{
+    text-wrap: nowrap ;
+}
