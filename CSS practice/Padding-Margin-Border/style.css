@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    font-size: 1.2em;
+}
+body{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 70vh;
+    width: 70%;
+    background-color: red;
+}
+main > div{
+    height: 40%;
+    width: 40%;
+    background-color: white;
+    border: 2px solid black;
+}
+.div1{
+    /* background-color: green; */
+    margin: 10px;
+    padding: 10px; /*  to all sides 10px padding will applied*/
+}
+.div2{
+    /* background-color: yellow; */
+    margin: 10px 20px;
+    padding: 10px 20px; /*  to left and right 20px and to top and bottom 10px padding will applied*/
+}
+.div3{
+    margin: 10px 20px 30px;
+    padding: 10px 20px 30px; /* to top 10px will appied and 20px will applied to left and right and 30px will applied to bottom*/
+}
+.div4{
+    margin: 10px 20px 30px 40px;
+    padding: 10px 20px 30px 40px; /* to top 10px will appied and 20px will applied to left and 30px will applied to bottom and 40px will applied to right*/
+}
+.bdiv{
+    height: 400px;
+    width: 400px;
+    border-color: aqua;
+    border-width: 10px 20px 30px 40px;
+}
